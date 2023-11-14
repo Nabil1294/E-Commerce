@@ -16,10 +16,10 @@ Product.init(
       autoIncrement: true,
     },
     product_name: {
-      tupe: DataTypes.STRING,
+      type: DataTypes.STRING,
       allowNull: false,
     },
-    prices: {
+    price: {
       type: DataTypes.DECIMAL(10, 2),
       allowNull: false,
       validate: {
